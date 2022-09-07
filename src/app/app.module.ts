@@ -12,9 +12,23 @@ import {MatCardModule} from '@angular/material/card';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import { ContactComponent } from './contact/contact.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { PerfilComponent } from './perfil/perfil.component';
+import { SkillComponent } from './skill/skill.component';
+import { SobremiComponent } from './sobremi/sobremi.component';
+import { EducacionComponent } from './educacion/educacion.component';
+import { ExperienciaComponent } from './experiencia/experiencia.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ContactComponent,
+    NavbarComponent,
+    PerfilComponent,
+    SkillComponent,
+    SobremiComponent,
+    EducacionComponent,
+    ExperienciaComponent
   ],
   imports: [
     BrowserModule,
