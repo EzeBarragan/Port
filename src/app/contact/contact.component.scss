@@ -84,8 +84,9 @@ mat-card-subtitle{
 .fondo2{
   background-image: url(https://fondosmil.com/fondo/13700.jpg);
   background-repeat: no-repeat;
-  max-width: auto;
   background-size: 100% 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 .card3{
   background-color:white;
@@ -133,4 +134,16 @@ mat-label{
 }
 .animate__zoomInRight{
   --animate-duration: s;
+}
+.borde{
+  border:1px solid rgb(8, 157, 243)
+}
+.bord{
+  border:1px solid rgb(8, 157, 243)
+}
+.bordes{
+  border:1px solid rgb(8, 157, 243)
+}
+.animate__zoomIn{
+  --animation-duration: 7s;
 }

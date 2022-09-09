@@ -19,6 +19,8 @@ import { SkillComponent } from './skill/skill.component';
 import { SobremiComponent } from './sobremi/sobremi.component';
 import { EducacionComponent } from './educacion/educacion.component';
 import { ExperienciaComponent } from './experiencia/experiencia.component';
+import { FormsModule, ReactiveFormsModule } from "@angular/forms";
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +30,8 @@ import { ExperienciaComponent } from './experiencia/experiencia.component';
     SkillComponent,
     SobremiComponent,
     EducacionComponent,
-    ExperienciaComponent
+    ExperienciaComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -43,6 +46,8 @@ import { ExperienciaComponent } from './experiencia/experiencia.component';
     MatGridListModule,
     MatFormFieldModule,
     MatInputModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

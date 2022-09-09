@@ -1,15 +1,20 @@
 <div class="fondo">
-  <app-navbar></app-navbar>
+  <app-navbar [referenciaSeccion]="seccionAbout" [referenciaSeccion2]="seccionExperiencia" [referenciaSeccion3]="seccionSkill" [referenciaSeccion4]="seccionEducation"[referenciaSeccion5]="seccionContacto"> </app-navbar>
   <app-perfil></app-perfil>
 </div>
-<div #seccionAbout></div>
-<app-sobremi></app-sobremi>
-<div #seccionExperiencia></div>
-<app-experiencia></app-experiencia>
-    <div #seccionSkill></div>
-    <app-skill></app-skill>
-        <div #seccionEducation></div>
-        <app-educacion></app-educacion>
+<div #seccionAbout>
+  <app-sobremi></app-sobremi>
+</div>
+<div #seccionExperiencia>
+  <app-experiencia></app-experiencia>
+</div>
+    <div #seccionSkill>
+      <app-skill></app-skill>
+    </div>
+    <div #seccionEducation>
+     <app-educacion></app-educacion>
+    </div>
   <div #seccionContacto class="fondo2">
     <app-contact></app-contact>
+  </div>
 <router-outlet></router-outlet>
