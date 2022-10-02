@@ -18,7 +18,8 @@
   margin-top: 50px;
   background-color: transparent;
   color: black;
-  box-shadow: rgba(0, 0, 0, 0.35)0px 5px 15px
+  box-shadow: rgba(0, 0, 0, 0.35)0px 5px 15px;
+  margin-bottom: 10px;
 }
 #ima{
   border-radius: 800px;
@@ -128,9 +129,4 @@ mat-label{
   background-color: #67b3e4;
 
 }
-.animate__backInRight{
-  --animate-duration: 5s;
-}
-.animate__zoomInRight{
-  --animate-duration: 3s;
-}
+

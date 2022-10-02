@@ -1,8 +1,8 @@
 .fondo{
-  background-image: url(https://i.pinimg.com/736x/ac/95/ff/ac95ffa91025ca875854caf5e179bf38.jpg);
+  background-image: url(https://www.gratistodo.com/wp-content/uploads/2021/10/nebula-colorida-en-el-espacio-gratistodo.com_.jpg);
   background-repeat: no-repeat;
-  max-width: 100%;
-  max-height: 100%;
+  max-width: auto;
+  max-height: auto;
   background-size: 100% 100%;
 }
 .sombra{
@@ -82,7 +82,7 @@ mat-card-subtitle{
   height: 150px;
 }
 .fondo2{
-  background-image: url(https://fondosmil.com/fondo/13700.jpg);
+  background-image: url(https://fondosmil.com/fondo/34253.jpg);
   background-repeat: no-repeat;
   max-width: auto;
   background-size: 100% 100%;
@@ -129,8 +129,14 @@ mat-label{
 
 }
 .animate__backInRight{
-  --animate-duration: 5s;
+  --animate-duration: 1s;
 }
-.animate__zoomInRight{
-  --animate-duration: s;
+.anima:hover{
+  color: #4029ea;
+}
+*{
+  overflow-x: hidden;
+}
+.f{margin-bottom: 2px;
+margin: 5px;
 }

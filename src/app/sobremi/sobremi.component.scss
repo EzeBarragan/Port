@@ -12,6 +12,7 @@
   margin:auto;
   width: 90%;
   margin-top: 40px;
+  margin-bottom: 10px;
 }
 .example-card1 {
   border-radius: 20px;
@@ -132,5 +133,5 @@ mat-label{
   --animate-duration: 5s;
 }
 .animate__zoomInRight{
-  --animate-duration: s;
+  --animate-duration: 4s;
 }

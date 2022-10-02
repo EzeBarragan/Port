@@ -7,46 +7,7 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
 })
 export class AppComponent {
   title = 'proyecto_x';
-  @ViewChild('seccionAbout') secFotosuno: ElementRef | any;
-  @ViewChild('seccionExperiencia') secFotosdos: ElementRef | any;
-  @ViewChild('seccionSkill') secFotostres: ElementRef | any;
-  @ViewChild('seccionEducation') secFotoscuatro: ElementRef | any;
-  @ViewChild('seccionContacto') secFotoscinco: ElementRef | any;
-  scrollUno() {
-    this.secFotosuno.nativeElement.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start',
-        inline: 'nearest'
-    });
-  }
-  scrollDos() {
-    this.secFotosdos.nativeElement.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start',
-        inline: 'nearest'
-    });
-  }
-  scrollTres() {
-    this.secFotostres.nativeElement.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start',
-        inline: 'nearest'
-    });
-  }
-  scrollCuatro() {
-    this.secFotoscuatro.nativeElement.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start',
-        inline: 'nearest'
-    });
-  }
-  scrollCinco() {
-    this.secFotoscinco.nativeElement.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start',
-        inline: 'nearest'
-    });
-  }
+ 
   Instagram(){
     window.open('https://www.instagram.com/ezequielbsso?r=nametag');
   }

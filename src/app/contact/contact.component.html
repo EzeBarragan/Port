@@ -1,41 +1,40 @@
 <div class="container-fluid">
-  <mat-card class="card3 animate__animated animate__zoomIn">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="text-md-center">Contact</div>
+  <div class="animate__animated animate__zoomIn">
+    <mat-card class="card3 ">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="text-md-center">Contact</div>
+        </div>
       </div>
-    </div>
-      <div class="row text-center">
-        <div class="col-md-4">
-          <form class="example-form">
-
-            <mat-form-field class="borde"appearance="fill">
-              <mat-label class="name">NAME</mat-label>
+      <form class="user-login"[formGroup]="loginForm"(ngSubmit)="onLogin()">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <mat-form-field class="bord" appearance="fill">
+              <mat-label class="name">Nombre</mat-label>
               <input matInput>
             </mat-form-field>
-            </form>
-            <form>
-              <mat-form-field class="bord" appearance="fill">
-                <mat-label class="email">Email</mat-label>
-                <input matInput type="email"placeholder="pat@example.com">
-              </mat-form-field>
-          </form>
-          <form class="example-form">
-            <mat-form-field class="bordes" appearance="fill">
-              <mat-label class="msj">Message</mat-label>
-              <input matInput #message>
-              <mat-hint align="start"><strong>Don't disclose personal info</strong> </mat-hint>
-              <mat-hint align="end"></mat-hint>
+            <div><mat-form-field class="bord" appearance="fill">
+                <mat-label class="apellido">Apellido</mat-label>
+                <input matInput>
+              </mat-form-field></div>
+            <mat-form-field class="bord" appearance="fill">
+              <mat-label class="email">Email</mat-label>
+              <input matInput type="email" formControlName="email">
             </mat-form-field>
-          </form>
-          <button mat-raised-button class="send">Enviar</button>
+            <div *ngIf="formControl.email.errors" class="text-danger">
+              <div *ngIf="formControl.email.errors.email">El email debe ser valido</div>
+              <div *ngIf="formControl.email.errors.required">Se necesita un email</div>
+            </div>
+            <div><mat-form-field class="bord" appearance="fill">
+                <mat-label class="msj">Message</mat-label>
+                <input matInput type="mensaje" maxlength="256">
+              </mat-form-field></div>
+              <button mat-raised-button type="submit" class="send">Enviar</button>
+          </div>
         </div>
-        <div class="col-md-4"></div>
-        <div class="col-md-2">
-          <p class="fw-bold rounded-start">Telefono </p><p text-center>+542215062474</p>
-          <p class="fw-bold rounded-start">email </p> <p text-center>ezebsso.03@gmail.com</p>
-        </div>
-      </div>
-  </mat-card>
+      </form>
+    </mat-card>
+  </div>
 </div>
+
 
