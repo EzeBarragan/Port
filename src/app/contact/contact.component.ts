@@ -12,7 +12,7 @@ export class ContactComponent implements OnInit {
 
   ngOnInit(): void {
     this.loginForm = this.formBuilder.group({
-      email: ["", [Validators.email, Validators.required]],
+      email: ["", [Validators.required]],
       mensaje:["",[Validators.required]],
       nombre:["", [Validators.required]]
     });

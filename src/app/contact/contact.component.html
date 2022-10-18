@@ -26,9 +26,9 @@
             </mat-form-field>
             <div *ngIf="formControl.email.errors" class="text-danger">
               <div *ngIf="formControl.email.errors.email">El email debe ser valido</div>
-              <div *ngIf="formControl.email.errors.required">Se necesita un email</div>
-            </div>
-            <div><mat-form-field class="bord" appearance="fill">
+              </div>
+            <div>
+              <mat-form-field class="bord" appearance="fill">
               <mat-label class="mensaje">Mensaje</mat-label>
               <input matInput type="mensaje" formControlName="mensaje">
             </mat-form-field></div>
@@ -37,6 +37,7 @@
             </div>
               <button mat-raised-button type="submit" class="send">Enviar</button>
           </div>
+          <br>
         </div>
       </form>
     </mat-card>
