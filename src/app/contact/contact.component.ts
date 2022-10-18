@@ -22,7 +22,6 @@ export class ContactComponent implements OnInit {
  };
  onLogin(){
   if(this.loginForm.valid ==true){
-    alert('Ingreso todo bien');
     window.open('https://wa.me/' + 2215062474 + '?text=Hola soy  '+this.loginForm.value.nombre+' Quisiera saber sobre '+this.loginForm.value.mensaje, '_blank')
   }else{
     alert('volve a intentar')
