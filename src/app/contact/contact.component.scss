@@ -21,7 +21,7 @@ mat-form-field{
 .email{
   color: black;
 }
-.msj{
+.mensaje{
   color: black;
 }
 .send{
@@ -37,11 +37,8 @@ mat-label{
   background-color: #67b3e4;
 
 }
-.borde{
-  border:1px solid rgb(8, 157, 243)
-}
 .bord{
-  border:1px solid rgb(8, 157, 243)
+  border:1px solid rgb(8, 51, 243)
 }
 .bordes{
   border:1px solid rgb(8, 157, 243)
@@ -49,9 +46,9 @@ mat-label{
 .animate__zoomIn{
   --animation-duration: 7s;
 }
-.apellido{color: black;}
 .contact{
- color: white;
+  margin-top: 25px;
+ color:black;
  font-weight: 700;
  font-size: 1.714em;
  line-height: 1.45em;
