@@ -7,7 +7,7 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
 })
 export class AppComponent {
   title = 'proyecto_x';
-  @ViewChild('seccionInicio') secFotosuno: ElementRef | any;
+  @ViewChild('seccionInicio')secFotosuno: ElementRef | any;
   Instagram(){
     window.open('https://www.instagram.com/ezequielbsso?r=nametag');
   }
@@ -20,7 +20,7 @@ export class AppComponent {
   Twitter(){
     window.open('https://twitter.com/ezee_bsso03');
   }
-  scrollToSeis(){
+  scrollToSiete(){
       this.secFotosuno.scrollIntoView({
           behavior: 'smooth',
           block: 'start',
