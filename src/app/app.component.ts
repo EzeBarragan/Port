@@ -20,13 +20,6 @@ export class AppComponent {
   Twitter(){
     window.open('https://twitter.com/ezee_bsso03');
   }
-  scrollToSiete(){
-      this.secFotosuno.scrollIntoView({
-          behavior: 'smooth',
-          block: 'start',
-          inline: 'nearest'
-      });
-    }
   }
 
 
